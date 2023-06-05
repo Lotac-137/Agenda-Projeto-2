@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+}
+
+body{
+    background-color: #C6B9FF ;
+    font-family: 'Cherry Bomb One', cursive;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    cursor: default;
+    text-decoration: none;
+}
+form{
+    text-align: center;
+    font-size: 32px;   
+}
+form .div{
+    background-color: #FFFFFF;
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: #7C64E8;
+    border-style: outset;
+}
+form,input,label{
+    border: none;
+    font-size: 26px;
+    outline: 0;
+}
+form .button{
+    background-color: #C6B9FF;
+    border: none;    
+    padding: 20px 35px 35px 35px; 
+    cursor: pointer;
+}
+table {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #7C64E8;
+    border-style: outset;
+    background-color: #FFFFFF;
+    font-size: 28px;
+}
+table th {
+    text-align: center;
+    margin: 0 auto;
+}
+table td {
+    margin: 0 auto;
+    text-align: center;
+}

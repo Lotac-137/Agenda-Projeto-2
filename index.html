@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+    
+    <form id="contactForm">
+        <div class="div"><label for="name">Nome:</label>
+            <input type="text" id="name" required placeholder="Digite seu nome">
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" required placeholder="Digite apenas os Numeros" pattern="[0-9]*" > <br>         
+        </div>
+        <button class="button" type="submit"><img src="image/subway_add.png" alt=""></button>
+    </form>
+    
+    <table id="contactTable">
+        <tr>
+            <th>Nome</th>
+            <th>Telefone</th>
+        </tr>
+    </table>
+    
+    <script src="main.js"></script>
+</body>
+</html>
